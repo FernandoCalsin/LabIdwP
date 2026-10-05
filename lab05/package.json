@@ -1,0 +1,13 @@
+{
+  "name": "caso-practico-servidor",
+  "version": "1.0.0",
+  "description": "Servidor estatico y API de estudiantes con Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

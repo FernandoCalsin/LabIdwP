@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Backend Estático</title>
+    <!-- Vinculamos el archivo CSS de la carpeta public -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <h1>Bienvenido a mi Servidor Node.js</h1>
+    <p>Este es un archivo estático HTML servido desde la carpeta <code>/public</code>.</p>
+
+    <div class="card">
+        <h3>Rutas disponibles para probar:</h3>
+        <ul>
+            <li><strong>GET /</strong> -> Carga esta página HTML</li>
+            <li><strong>GET /style.css</strong> -> Carga los estilos CSS</li>
+            <li><strong>GET /api/estudiantes</strong> -> Devuelve la lista en JSON</li>
+        </ul>
+    </div>
+
+</body>
+</html>
